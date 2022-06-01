@@ -18,11 +18,11 @@ public class movimientoplayer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(0, 0, speedZ);
+            transform.Translate(speedZ, 0, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0, 0, -speedZ);
+            transform.Translate(-speedZ, 0, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
