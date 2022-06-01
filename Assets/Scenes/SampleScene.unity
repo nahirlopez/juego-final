@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44906652, g: 0.4991371, b: 0.57571507, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -265,9 +265,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.25700268, y: -0.65486693, z: 0.2534822, w: 0.6639621}
+  m_LocalPosition: {x: 18.38, y: 22.29, z: 0.06}
+  m_LocalScale: {x: 1.0397, y: 1.0397, z: 1.0397}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1278,6 +1278,7 @@ GameObject:
   - component: {fileID: 1479389480}
   - component: {fileID: 1479389479}
   - component: {fileID: 1479389478}
+  - component: {fileID: 1479389482}
   m_Layer: 0
   m_Name: conejito
   m_TagString: Untagged
@@ -1370,6 +1371,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 182.76099, z: 0}
+--- !u!114 &1479389482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479389477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6f892c887c1bd4792b65d5c02e66f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedZ: 0
+  speedgiro: 0
 --- !u!1 &1496931247
 GameObject:
   m_ObjectHideFlags: 0
